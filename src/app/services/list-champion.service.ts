@@ -11,7 +11,7 @@ import { AppModule } from '../app.module';
   providedIn: 'root',
 })
 export class ListChampionService {
-  url?: string = 'https://jsonserver-kohl-pi.vercel.app/champions?';
+  url?: string = 'http://jsonserver-kohl-pi.vercel.app/champions?';
   i: any;
   
   constructor(
