@@ -22,6 +22,9 @@ export class ChampionDetailComponent implements OnInit{
   ){
     this.getChampion();
   }
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
 
   idForUrl(){
     if(this.champion.key.length === 1){
