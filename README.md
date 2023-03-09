@@ -16,6 +16,11 @@
    * [Sobre](#sobre)    
 
 
+<h2 align="center">⚠Atenção⚠</h2>
+<h3>Antes de tudo, atualize a Key para requisição, infelizmente ela tem validade de 24hrs e não consegui pedir uma personalizada para a riot, agradeço a compreenção<br>Chave Atualizada:'RGAPI-80e1ce29-115d-4d87-b054-c8a1a3bac65f'</h3>
+<img src="https://user-images.githubusercontent.com/122394463/224090408-37ff79ab-13c8-4e9d-a03f-df5a88388ac5.png" alt="">
+
+
 <h2 id="sobreprojeto">Sobre o Projeto</h2>
 <p>Esse projeto é um desafio proposto pela FieldContol no qual devemos criar uma SPA utilizando um framework, nesse caso optei pelo Angular</p>
 Nessa aplicação você terá acesso a funcionalidades como: 
