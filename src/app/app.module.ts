@@ -38,5 +38,5 @@ import { TotopbuttonComponent } from './components/totopbutton/totopbutton.compo
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  public  key:string = 'RGAPI-5e216820-8556-4931-b1bd-77ea7a09971d'
+  public  key:string = 'RGAPI-80e1ce29-115d-4d87-b054-c8a1a3bac65f'
  }
