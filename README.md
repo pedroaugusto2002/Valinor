@@ -40,15 +40,15 @@ Bom Aproveito! 😁
 </h2>
 
 - instale as dependencias: ```npm install```
-- instale json-server ```npm install -g json-server```
-- execute: ```json-server --watch db.json```
 - para executar no CLI: ```ng serve```
 - Agora bastar copiar e colar a URL no seu navegador e ser feliz: ```http://localhost:4200/```
+
+<p>ou se preferir, é só acessar: <b>https://valinor-beta.vercel.app</b></p>
 
 <h2 id="telas">Principais tela</h2>
 
 <div align="center">
-
+  
 <h3>Pagina Inicial</h3>
 <p>
   <img src="assets/home.png" width="855"/>
