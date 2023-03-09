@@ -6,7 +6,7 @@
     font-size: 1em;
     color: rgb(187, 113, 23);
     margin: 0px;
-    font-family: "BeaufortforLOL-Bold";
+    font-family: "BeaufortforLOL-Bold" , Arial;
 }
 ul{
     list-style-type: none;
