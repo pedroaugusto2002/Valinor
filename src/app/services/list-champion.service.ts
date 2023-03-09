@@ -46,7 +46,7 @@ export class ListChampionService {
   getChampion(id: string): Observable<ChampionDetails> {
     return this.httpClient
       .get<{ data: any }>(
-        `http://ddragon.leagueoflegends.com/cdn/13.4.1/data/pt_BR/champion/${id}.json`
+        `https://ddragon.leagueoflegends.com/cdn/13.4.1/data/pt_BR/champion/${id}.json`
       )
       .pipe(
         map((response) => {
