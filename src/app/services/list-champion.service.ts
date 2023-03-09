@@ -11,7 +11,7 @@ import { AppModule } from '../app.module';
   providedIn: 'root',
 })
 export class ListChampionService {
-  url?: string = 'http://localhost:3000/champions?';
+  url?: string = 'https://jsonserver-kohl-pi.vercel.app/champions?';
   i: any;
   
   constructor(
@@ -28,7 +28,7 @@ export class ListChampionService {
   ): Observable<{ totalCount: number; champions: Champion[] }> {
     return this.httpClient
       .get(
-        `http://localhost:3000/champions?_page=${page}&_limit=${limit}&id_like=${
+        `https://jsonserver-kohl-pi.vercel.app/champions?_page=${page}&_limit=${limit}&id_like=${
           text || ''
         }`,
         { observe: 'response' }
@@ -70,7 +70,7 @@ export class ListChampionService {
   }
   getChampionByKey(championKey1:number, championKey2:number, ChampionKey3:number):Observable<Champion[]>{
     return this.httpClient
-    .get<Champion[]>(`http://localhost:3000/champions?key=${championKey1}&key=${championKey2}&key=${ChampionKey3}`)
+    .get<Champion[]>(`https://jsonserver-kohl-pi.vercel.app/champions?key=${championKey1}&key=${championKey2}&key=${ChampionKey3}`)
     .pipe(
       map((response) => {
         return response
