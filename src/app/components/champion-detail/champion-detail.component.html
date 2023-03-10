@@ -55,27 +55,27 @@
 
     <div class="spellDescriptions">
       <div class="spell" [ngClass]="{'showOn': spellSelected === 'p'}">
-        <h1>{{champion.passive.name}}</h1>
+        <h1 class="spellName">{{champion.passive.name}}</h1>
         <p [innerHTML]="champion.passive.description"></p>
         <video [muted]="true" autoplay loop src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/{{idForUrl()}}/ability_{{idForUrl()}}_P1.webm" type="webm" ></video>
       </div>
       <div [ngClass]="{'showOn': spellSelected === 'q'}" class="spell">
-        <h1>{{champion.spells[0].name}}</h1>
+        <h1 class="spellName">{{champion.spells[0].name}}</h1>
         <p [innerHTML]="champion.spells[0].description"></p>
         <video [muted]="true" autoplay loop src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/{{idForUrl()}}/ability_{{idForUrl()}}_Q1.webm" type="webm"  ></video>
       </div>
       <div [ngClass]="{'showOn': spellSelected === 'w'}" class="spell">
-        <h1>{{champion.spells[1].name}}</h1>
+        <h1 class="spellName">{{champion.spells[1].name}}</h1>
         <p [innerHTML]="champion.spells[1].description"></p>
         <video [muted]="true" autoplay loop src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/{{idForUrl()}}/ability_{{idForUrl()}}_W1.webm" type="webm"  ></video>
       </div>
       <div [ngClass]="{'showOn': spellSelected === 'e'}" class="spell">
-        <h1>{{champion.spells[2].name}}</h1>
+        <h1 class="spellName">{{champion.spells[2].name}}</h1>
         <p [innerHTML]="champion.spells[2].description"></p>
         <video [muted]="true" autoplay loop src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/{{idForUrl()}}/ability_{{idForUrl()}}_E1.webm" type="webm"  ></video>
       </div>
       <div [ngClass]="{'showOn': spellSelected === 'r'}" class="spell">
-        <h1>{{champion.spells[3].name}}</h1>
+        <h1 class="spellName">{{champion.spells[3].name}}</h1>
         <p [innerHTML]="champion.spells[3].description"></p>
         <video [muted]="true" autoplay loop src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/{{idForUrl()}}/ability_{{idForUrl()}}_R1.webm" type="webm"  ></video>
       </div> 

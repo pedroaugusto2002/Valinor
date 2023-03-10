@@ -79,6 +79,9 @@ ul{
     padding-bottom: 10px;
     font-size: 0.75em;
 }
+.spellName{
+    text-align: left;
+}
 .spells{
     padding-top: 2%;
     display: flex;
@@ -378,6 +381,8 @@ video{
     }
     
     .skinsList{
+        margin-bottom: 284px;
+        position: absolute;
         margin: 20px 20px 0;
         padding-top: 0;
         margin-top: 0;
@@ -497,7 +502,7 @@ video{
         position: relative;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: start;
         height: 500px;
     }
     .skinsContainer{
