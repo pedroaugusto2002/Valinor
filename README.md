@@ -39,9 +39,11 @@ Bom Aproveito! 😁
   Iniciando o projeto
 </h2>
 
+
 - instale as dependencias: ```npm install```
 - para executar no CLI: ```ng serve```
 - Agora bastar copiar e colar a URL no seu navegador e ser feliz: ```http://localhost:4200/```
+- Rodar Testes ```ng test```
 
 <p>ou se preferir, é só acessar: <b>https://valinor-beta.vercel.app</b></p>
 
