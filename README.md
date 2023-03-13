@@ -17,7 +17,7 @@
 
 
 <h2 align="center">⚠Atenção⚠</h2>
-<h3>Antes de tudo, atualize a Key para requisição, infelizmente ela tem validade de 24hrs e não consegui uma personalizada para a riot, agradeço a compreenção<br>Chave Atualizada:'RGAPI-9b10d7d1-2333-403b-8e2b-0fa2f6a76ebe'</h3>
+<h3>Antes de tudo, atualize a Key para requisição, infelizmente ela tem validade de 24hrs e não consegui uma personalizada para a riot, agradeço a compreenção<br>Chave Atualizada:'RGAPI-27d3421d-55d9-42f1-800d-e947c9396709'</h3>
 <img src="https://user-images.githubusercontent.com/122394463/224090408-37ff79ab-13c8-4e9d-a03f-df5a88388ac5.png" alt="">
 
 

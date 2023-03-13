@@ -1,6 +1,6 @@
-import { Injectable, Input } from '@angular/core';
+import { Injectable} from '@angular/core';
 import { Champion } from '../Champion';
-import { debounceTime, map, Observable } from 'rxjs';
+import { map, Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
 import { ChampionDetails } from '../ChampionDetails';
@@ -16,10 +16,11 @@ export class ListChampionService {
   
   constructor(
     private httpClient: HttpClient,
-    private key: AppModule 
+    private module: AppModule 
   ){}
 
-  riotKey: string = this.key.key;
+  riotKey: string = this.module.key;
+  path: string = this.module.path
 
   getChampions(
     page: any,
@@ -46,7 +47,7 @@ export class ListChampionService {
   getChampion(id: string): Observable<ChampionDetails> {
     return this.httpClient
       .get<{ data: any }>(
-        `https://ddragon.leagueoflegends.com/cdn/13.4.1/data/pt_BR/champion/${id}.json`
+        `https://ddragon.leagueoflegends.com/cdn/${this.path}/data/pt_BR/champion/${id}.json`
       )
       .pipe(
         map((response) => {
@@ -58,7 +59,7 @@ export class ListChampionService {
   getFreeWeekChampions(): Observable<Champion[]> {
     return this.httpClient
       .get<{ freeChampionIds: string[] }>(
-        `https://br1.api.riotgames.com/lol/platform/v3/champion-rotations?api_key=${this.key.key}`
+        `https://br1.api.riotgames.com/lol/platform/v3/champion-rotations?api_key=${this.riotKey}`
       )
       .pipe(
         switchMap((response) => {
